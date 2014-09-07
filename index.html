@@ -1,0 +1,129 @@
+<!DOCTYPE html><!--HTML5 doctype-->
+<html>
+<head>
+	<title>FBCVR-RequireJS</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+	<!--
+	<style type="text/css">
+		/* Prevent copy paste for all elements except text fields */
+		*  { -webkit-user-select:none; -webkit-tap-highlight-color:rgba(255, 255, 255, 0); }
+		input, textarea  { -webkit-user-select:text; }
+		body { background-color:white; color:black }
+	</style>
+	-->
+	
+    <title>FBCVR - First Baptist Church of Villa Rica</title>     
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+      
+    <!--Font-Awesome -->
+    <link rel="stylesheet" href="./fa/css/font-awesome.css">
+      
+    <!-- Custom styles for this template -->
+    <link href="./css/navbar-fixed-top.css" rel="stylesheet">
+    <link href="./css/navbar-phone.css" rel="stylesheet">            
+    <link href="./css/table.css" rel="stylesheet">            
+    <!-- Great Vibes -->
+    <link href="./css/screen.css" rel="stylesheet">                
+    
+</head>
+<body>
+    <div class="container">
+        <div id="home" data-page='home'></div>
+        <div id="about" data-page='about' style="display: none"></div>   
+        <div id="share" data-page='share' style="display: none"></div>    
+        <div id="staff" data-page='staff' style="display: none"></div>                
+        <div id="menu" data-page='menu' style="display: none">
+            <table class="table well">
+                <tbody id="ourMenu">
+                    <tr>
+                        <td>August 13th</td>
+                        <td>Meal Description Goes Here</td>
+                    </tr>
+                </tbody>                      
+            </table> 
+        </div>
+        <div id="rsvp" data-page='rsvp' style="display: none">
+            <div class="well">
+                <center>
+                    <span id="rsvp-date-formatted" style="display:none">Formated Date</span>
+                    <h4 id="rsvp-date" class="rsvp-h1">August13th</h4>
+                    <p id="rsvp-menu" class="rsvp-menu">menu goes here</p> 
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    <center>
+                                    <h4><b>Dinner Meals $<span id="rsvp-adult-cost">3.00</span>/per</b></h4>
+                                    </center>                                        
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button id="btnAdultPlus" type="button" class="">
+                                        <i class="fa fa-plus-circle fa-4x"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <input id="inputAdults" class="rsvp-input" value="0" readonly/>
+                                </td>
+                                <td>
+                                    <button id="btnAdultMinus" type="button" class="">
+                                        <i class="fa fa-minus-circle fa-4x"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <center>
+                                    <h4><b>Kids Snack $<span id="rsvp-kid-cost">1.00</span>/per</b></h4>
+                                    </center>                                        
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td>
+                                    <button id="btnKidPlus" type="button" class="">
+                                        <i class="fa fa-plus-circle fa-4x"></i>
+                                    </button>
+                                </td>
+                                <td>
+                                    <input id="inputKids" class="rsvp-input" value="0" readonly/>
+                                </td>
+                                <td>
+                                    <button id="btnKidMinus" type="button" class="">
+                                        <i class="fa fa-minus-circle fa-4x"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <h4><b>TOTAL:</b></h4>
+                                    </center>                                        
+                                </td>
+                                <td>
+                                    <input id="rsvpTotal" class="rsvp-total" value="0.00" readonly/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="text-center">
+                                    <button id="btnRsvpSubmit" type="button" class="btn btn-default btn-lg" >
+                                        <span><b>SUBMIT</b></span>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>                        
+                    </table>
+                </center>
+            </div>                  
+        </div>  
+    </div>
+    
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="device.js"></script>
+    <script type="text/javascript" src="inappbrowser.js"></script>
+    <script type="text/javascript" data-main="js/config" src="js/libs/require.js"></script>    
+</body>
+</html>
