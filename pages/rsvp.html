@@ -8,13 +8,15 @@
                 <tr>
                     <td colspan="3">
                         <center>
-                        <h4><b>Dinner Meals $<span id="rsvp-adult-cost">3.00</span>/per</b></h4>
+                            <span class="rsvp-cost-label">
+                                <b>Dinner Meals $<span id="rsvp-adult-cost">3.00</span>/per</b>
+                            </span>                                
                         </center>                                        
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <button id="btnAdultPlus" type="button" class="">
+                        <button id="btnRsvpPlus" type="button" class="btn-rsvp-plus">
                             <i class="fa fa-plus-circle fa-4x"></i>
                         </button>
                     </td>
@@ -22,37 +24,14 @@
                         <input id="inputAdults" class="rsvp-input" value="0" readonly/>
                     </td>
                     <td>
-                        <button id="btnAdultMinus" type="button" class="">
-                            <i class="fa fa-minus-circle fa-4x"></i>
-                        </button>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="3">
-                        <center>
-                        <h4><b>Kids Snack $<span id="rsvp-kid-cost">1.00</span>/per</b></h4>
-                        </center>                                        
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <button id="btnKidPlus" type="button" class="">
-                            <i class="fa fa-plus-circle fa-4x"></i>
-                        </button>
-                    </td>
-                    <td>
-                        <input id="inputKids" class="rsvp-input" value="0" readonly/>
-                    </td>
-                    <td>
-                        <button id="btnKidMinus" type="button" class="">
+                        <button id="btnRsvpMinus" type="button" class="btn-rsvp-minus">
                             <i class="fa fa-minus-circle fa-4x"></i>
                         </button>
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <h4><b>TOTAL:</b></h4>
+                        <h4><b><span class="rsvp-total-label">TOTAL:</span></b></h4>
                         </center>                                        
                     </td>
                     <td>
