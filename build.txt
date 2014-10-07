@@ -7,6 +7,10 @@ css/index.css
 ----------------
 css/index.css
 
+css/jesusCross.css
+----------------
+css/jesusCross.css
+
 css/navbar-fixed-top.css
 ----------------
 css/navbar-fixed-top.css
@@ -68,9 +72,11 @@ js/utils/salvation.js
 js/utils/home.js
 js/utils/ajaxMission.js
 js/utils/ajaxDiscovery.js
+js/utils/fix.js
 js/utils/ajaxDevelopment.js
 js/utils/about.js
 js/utils/ajaxStaff.js
 js/utils/staff.js
 js/utils/share.js
+js/utils/faith.js
 js/app.js
