@@ -36,15 +36,7 @@
     <icon src="Resources/iphone/appicon-60@2x.png" gap:platform="ios" width="120" height="120" />
     <icon src="Resources/iphone/appicon-76@2x.png" gap:platform="ios" width="152" height="152" />
         
-
-
-
-
-
-
         
-
-
         
     <!-- SPLASH SCREENS -->
         
@@ -64,24 +56,16 @@
     <gap:splash src="Resources/iphone/Default-Landscape@2x.png" gap:platform="ios" width="2048" height="1496" />
     <gap:splash src="Resources/iphone/Default-Portrait@2x.png" gap:platform="ios" width="1536" height="2008" />
         
-    <!-- android splash -->    
     <!-- 200x320 -->        
-
     <!-- 320x480 -->    
-
     <!-- 480x800 -->        
-
     <!-- 720x1280 -->        
-
         
     <!-- Windows Phone 7 480x800 -->
-
 
     <!-- PLATFORM SELECTION -->
 
     <gap:platform name="ios" />
-
-
         
     <!-- GENERAL PREFERENCES -->
         
@@ -104,11 +88,6 @@
         
     <!-- ANDROID PREFERENCES -->
         
-    <preference name="android-minSdkVersion" value="7" /> <!-- minimum Android 2.1 -->
-    <!-- <preference name="android-maxSdkVersion" value="19" /> maximum Android 4.4 -->
-    <preference name="android-targetSdkVersion" value="19" /> <!-- targeting Android 4.4 -->
-    <preference name="android-installLocation" value="auto" />
-    <preference name="android-windowSoftInputMode" value="stateHidden|adjustResize" />
     <preference name="SplashScreenDelay" value="5000" />
 
     <preference name="load-url-timeout" value="20000" />
