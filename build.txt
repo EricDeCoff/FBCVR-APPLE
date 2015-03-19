@@ -19,6 +19,10 @@ css/navbar-phone.css
 ----------------
 css/navbar-phone.css
 
+css/navbar-title.css
+----------------
+css/navbar-title.css
+
 css/screen.css
 ----------------
 css/screen.css
