@@ -113,16 +113,17 @@
 .btn-rsvp-plus, 
 .btn-rsvp-minus,
 .rsvp-input{
-    height: 62px;
-    width: 62px;
+    height: 63px;
+    width: 63px;
     text-align: center;
     font-weight: bolder;
 }
 .rsvp-input{
-    font-size: 46px;
+    font-size: 30px;
 }
 .rsvp-total{
     width: 64px;
+    font-size: 20px;
     text-align: right;
     font-weight: bolder;
 }
@@ -157,8 +158,8 @@
     .btn-rsvp-plus, 
     .btn-rsvp-minus,
     .rsvp-input{
-        height: 162px;
-        width: 162px;
+        height: 163px;
+        width: 163px;
         text-align: center;
         font-weight: bolder;
     }
@@ -169,8 +170,8 @@
         font-size: 64px;
     }
     .rsvp-total{
-        width: 162px;
-        font-size: 64px;
+        width: 161px;
+        font-size: 60px;
         text-align: right;
         font-weight: bolder;
     }
